@@ -1,0 +1,16 @@
+angualr-code-docker-k8s-yml 
+
+https://github.com/ashokitschool/contact_ui_ng_app
+
+boot-h2:DB-code-docker-k8s-yml
+
+https://github.com/ashokitschool/contact_backend_app
+
+
+docker images
+docker build -t contact_ui_angular .
+docker tag contact_ui_angular 123anubhav/contact_ui_angular
+docker images
+docker push 123anubhav/contact_ui_angular
+
+
